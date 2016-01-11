@@ -1,6 +1,6 @@
 // Designed to find lengths of arrays.
 // array.length() does this as well, but here's a new way.
-
+// Note: This is designed for languages with bounds checking. 
 public class arrayLengthFinderMethods {
     public static int lengthFinder(Object[] insertedObject) { // for object and non-primitive data types
         int foundLength = 0;
